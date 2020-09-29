@@ -1,3 +1,7 @@
+## FEATURE
+
+print filename if the output is different from the answer or compile error. 
+
 ## How to use
 
 　├ root_directory/  
@@ -7,7 +11,11 @@
 　│　└ student2/  
 　│　　　├ exefile1.c/  
 　│　　　└ exefile2.c/  
-　├ exefile/  
+　├ exefile1/  
+　│　├ answer.txt  
+　│　└ input.txt  
+　├ exefile2/  
+　│　├ answer.txt  
 　│　└ input.txt  
 　└ for_Cprogramming_TA.sh  
 
@@ -17,4 +25,4 @@ ex)
 
 ## TODO:
 
-compare answer and output
+support many test cases
